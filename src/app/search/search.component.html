@@ -1,0 +1,25 @@
+
+
+
+
+  
+  
+
+<div class="container ">    
+ <div *ngFor="let image of parentValue">
+  <div class="row">
+    <div class="col-sm-12">
+       <div class="panel"> 
+           <div class="panel-heading ">
+                <h4 class="panel-title">{{ image.name }}</h4>
+           </div>
+    <a routerLink="/detail"> <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={{image.photos[0].photo_reference}}&key=AIzaSyBPiXkKIQnjw9AHv6d4dD1FweQ4-iX3UR8"> </a>
+            <div class="panel-body">
+                <p> Rating :{{ image.rating }}</p>
+                <p> Address : {{ image.formatted_address }}</p>
+            </div>            
+        </div>
+    </div><!--end of column-->
+  </div><!--end of row-->
+ </div>
+</div>

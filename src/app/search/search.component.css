@@ -1,0 +1,24 @@
+
+.panel{
+    margin-top: 50px;
+}
+
+.panel-heading{
+    background-color: lightgrey;
+}
+.panel img{
+    float: left;
+    height: 200px;
+    width : 300px;
+    padding-right: 20px;
+}
+
+ .panel-body{
+     margin-top : 40px;
+     
+ }
+
+ .panel-body p{
+     
+     margin-top:30px;
+ }
